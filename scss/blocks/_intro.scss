@@ -1,0 +1,143 @@
+.intro {
+  position: relative;
+  margin-top: 54px;
+  margin-bottom: 150px;
+}
+
+.intro__bg {
+  height: 605px;
+  background-image: url(../../img/intro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro__wrapper {
+  position: absolute;
+  max-width: 445px;
+  max-height: 357px;
+  background: #fafafa;
+  left: 0;
+  bottom: 0;
+}
+
+.intro__heading {
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.446429px;
+  padding: 56px 55px 53px 0;
+  color: #33323d;
+}
+
+.intro__wrapper-btn {
+  display: flex;
+  max-width: 200px;
+  background: #203a4c;
+  align-items: center;
+  margin-bottom: 150px;
+  transition: all 0.3s ease;   
+}
+
+.intro__wrapper-btn:hover {
+  background-color: #5FB4A2;
+}
+
+.intro__wrapper-btn-img {
+  display: block;
+  padding: 18px 16px;
+  background: rgba(0, 0, 0, 0.105);
+}
+
+.intro__wrapper-btn-heading {
+  display: inline-block;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  padding: 17px;
+}
+
+@media screen and (max-width: 786px) {
+    .intro{
+        margin-top: 47px;
+        margin-bottom: 96px;
+    }
+  .intro__bg {
+    max-width: 915px;
+    height: 600px;
+    background-image: url(../../img/intro-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .intro__wrapper {
+    max-width: 514px;
+  }
+
+  .intro__heading {
+    font-family: "Ibarra Real Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323d;
+  }
+
+  .intro__wrapper-btn-heading {
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 375px) {
+    .intro{
+        margin-top: 40px;
+        margin-bottom: 76px;
+    }
+  .intro__bg {
+    max-width: 414px;
+    height: 271px;
+    background-image: url(../../img/intro-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .intro__wrapper {
+    margin-top: 24px;
+    position: static;
+    max-width: 311px;
+  }
+
+  .intro__heading {
+    font-family: "Ibarra Real Nova";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+
+    color: #33323d;
+  }
+
+  .intro__wrapper-btn-heading {
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}

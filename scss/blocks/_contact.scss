@@ -1,0 +1,103 @@
+.contact {
+  margin-top: 48px;
+  margin-bottom: 80px;
+}
+.contact__hr {
+  width: 100%;
+  background: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.15;
+}
+.contact__left {
+  max-width: 555px;
+}
+.contact__heading {
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+
+  color: #33323d;
+}
+.contact__container{
+    margin-top: 48px;
+}
+.contact__right {
+  max-width: 635px;
+  margin-left: auto;
+  margin-top: 0;
+}
+.contact__form {
+  display: block;
+}
+.contact__box {
+  position: relative;
+}
+
+.contact__box-desc {
+  display: block;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 30px;
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.contact__box-input {
+  width: 100%;
+  background: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  margin-bottom: 24px;
+}
+
+.contact__box-input {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+  background-color: #33323d1a;
+  color: #33323d;
+  opacity: 0.4;
+  padding: 9px 16px;
+  border: none;
+}
+
+.contact__box-error {
+  display: none;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  margin: 0;
+  padding: 3px;
+  font-size: 12px;
+  background-color: rgb(247, 249, 197);
+  border-radius: 5px;
+  color: red;
+}
+.contact__messenge{
+    resize: none;
+}
+
+.contact__box-button {
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 17px 24px;
+  color: #ffffff;
+  background-color: #203a4c;
+}
+
+.contact__box-input:not(:focus):not(:placeholder-shown):invalid + .contact__box-error{
+    display: block;
+}

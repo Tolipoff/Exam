@@ -1,0 +1,127 @@
+.about {
+  display: flex;
+}
+
+.about__left {
+  max-width: 555px;
+}
+
+.about__right {
+  max-width: 555px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__right-wrapper {
+  max-width: 350px;
+  margin-left: 125px;
+}
+
+.about__right-hr {
+  max-width: 350px;
+  background: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.15;
+}
+
+.about__right-heading {
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  margin-top: 50px;
+  color: #33323d;
+}
+
+.about__right-desc {
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 28px;
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.about__right-link {
+  display: inline-block;
+  margin-top: 24px;
+  margin-bottom: 46px;
+}
+
+.about__bottom {
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__bottom-heading {
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  max-width: 350px;
+  color: #33323d;
+  margin-right: 32px;
+}
+
+.about__bottom-wrapper {
+  max-width: 534px;
+  height: 1px;
+  background: #33323d;
+  mix-blend-mode: normal;
+}
+
+@media screen and (max-width: 786px) {
+  .about__left-img {
+    max-width: 281px;
+    max-height: 600px;
+  }
+
+  .about__right-wrapper {
+    max-width: 339px;
+    margin-left: 69px;
+  }
+
+  .about__right-hr {
+    max-width: 339px;
+  }
+}
+@media screen and (max-width: 529px) {
+  .about {
+    display: block;
+  }
+  .about__right-wrapper {
+    max-width: 311px;
+    flex-direction: row;
+    align-items: stretch;
+    margin-left: 0px;
+  }
+
+  .about__right-hr {
+    max-width: 339px;
+  }
+
+  .about__right-heading {
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width: 375px) {
+
+  .about__left {
+    margin-bottom: 65px;
+  }
+
+  .about__left-img {
+    max-width: 311px;
+    max-height: 346px;
+  }
+  .about__bottom{
+      display: block;
+  }
+}
